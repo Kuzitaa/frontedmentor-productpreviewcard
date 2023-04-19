@@ -7,20 +7,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./tailwind.css">
+  <link rel="stylesheet" href="./public/css/tailwind.css">
   <title>Frontend Mentor | Product preview card component</title>
 </head>
 <body class="bg-secondary font-Montserrat h-[100vh] flex justify-center place-items-center">
   <main id="product-card" class="w-auto mx-4 my-7 sx:flex">
     <div id="product-image">
-      <img class="rounded-t-xl sx:hidden" src="../../images/image-product-mobile.jpg" alt="Imagen del producto">
-      <img class="rounded-t-xl object-cover sn:hidden sx:block sx:w-72 sx:h-[28rem] sx:rounded-l-xl sx:rounded-tr-none" src="../../images/image-product-desktop.jpg" alt="Imagen del producto">
+      <img class="rounded-t-xl sx:hidden" src="./images/image-product-mobile.jpg" alt="Imagen del producto">
+      <img class="rounded-t-xl object-cover sn:hidden sx:block sx:w-72 sx:h-[28rem] sx:rounded-l-xl sx:rounded-tr-none" src="./images/image-product-desktop.jpg" alt="Imagen del producto">
     </div>
     <div id="product-info" class="p-8 rounded-b-xl bg-white sx:w-72 sx:rounded-bl-none sx:rounded-r-xl">
-      <p id="product-type" class="text-xs	tracking-widestx text-neutralGrayish mb-5">PERFUME</p>
-      <p id="product-name" class="font-Fraunces text-3xl text-neutralDark leading-none mb-6">Gabrielle Essence Eau De Parfum</p>
-      <p id="product-description" class="text-neutralGrayishL font-bold text-sm leading-6 mb-7">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
-      <div id="product-pricing" class="flex items-center mb-5">
+      <p id="product-type" class="text-xs mb-3	tracking-widestx text-neutralGrayish sx:mb-5">PERFUME</p>
+      <p id="product-name" class="font-Fraunces mb-4 text-3xl text-neutralDark leading-none sx:mb-6">Gabrielle Essence Eau De Parfum</p>
+      <p id="product-description" class="text-neutralGrayishL mb-5 font-bold text-sm leading-6 sx:mb-7">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+      <div id="product-pricing" class="flex items-center mb-4 sx:mb-5">
         <p id="product-price-discount" class="font-Fraunces text-primary text-3xl mr-4">$149.99</p>
         <p id="product-price-regular" class="text-sm text-neutralGrayish"> <del>$169.99</del></p>
       </div>

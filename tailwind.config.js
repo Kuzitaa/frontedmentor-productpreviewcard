@@ -3,7 +3,7 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  content: ['./public/css/index.html', './src/css/tailwind.css'],
+  content: ['./index.html', './src/css/tailwind.css'],
   theme: {
     colors: {
       'primary':"hsl(158, 36%, 37%)",
